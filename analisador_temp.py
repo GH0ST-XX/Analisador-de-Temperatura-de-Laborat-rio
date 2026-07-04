@@ -7,7 +7,7 @@ tempnorma = []
 
 def analise_temperatura():
     while True:
-        temp = int(input("Digite as temperaturas atuais do lab ou digite 999 para sair: "))
+        temp = float(input("Digite as temperaturas atuais do lab ou digite 999 para sair: "))
         if temp == 999:
             break
         elif temp >= 50:
